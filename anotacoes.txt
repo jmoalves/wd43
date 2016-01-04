@@ -130,3 +130,34 @@ Desta forma, o CSS e o HTML ficam mais desacoplados.
 As classes devem representar elementos *semânticos* de sua página.
 Procure dar significado para as suas classes.
 ---
+Os navegadores já possuem estilos padrões para os elementos.
+Para termos uma experiência mais controlada, podemos aplicar um CSS para resetar
+os padrões.
+Há alguns disponíveis na Web. Um dos mais conhecidos é o do Eric Meyer.
+---
+No futuro (para Reset), poderemos usar um CSS Reset "padrão", como por exemplo:
+* {
+	all: unset;
+}
+
+mas isso ainda é experimental...
+---
+Posicionamento.
+
+Há alguns tipos de posicionamento no CSS.
+
+position: static;
+Padrão, aparece no fluxo HTML;
+
+position: relative;
+Permite posicionar com top/left/right/bottom, relativo à posição que ocuparia no fluxo html.
+Continua a ocupar espaço no fluxo.
+
+position: absolute;
+Se posiciona em relação à página.
+A não ser quando o elemento pai tem posicionamento diferente de static.
+Neste caso, é absolute em relação ao pai;
+
+position: fixed;
+Faz com que o elemento fique em posição fixa na tela, mesmo que o conteúdo role;
+---
