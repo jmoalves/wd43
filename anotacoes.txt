@@ -1,4 +1,4 @@
-
+=== WD43 - HTML, CSS, JS
 
 
 ---
@@ -38,3 +38,47 @@ body {
 	margin: 0 auto; Deixa top/bottom com zero e divide por igual a sobra com right/left.
 }
 
+---
+Qualquer tag html pode ter atributo id, que identifica UNICAMENTE o elemento.
+---
+CSS - Seletor hierárquico
+
+div p {
+	color: red
+}
+
+Pega todos os parágrafos que são descendentes de divs. Exemplo:
+<div>
+	<p>pega</p>
+</div>
+
+<div>
+	<article>
+		<p>pega</p>
+	</article>
+	<p>pega</p>
+</div>
+
+<body>
+	<p>não pega>
+	<div>
+		<p>pega</p>
+	</div>
+</body>
+
+---
+CSS - Seletor de id
+<div>
+	<h1>asodiapo</h1>
+	<p></p>
+</div>
+<p>2312</p>
+<p>wqeq</p>
+<div id="rodape">
+	<p>Copyright 2016</p>
+	<h2>oiuroiu</h2>
+</div>
+
+#rodape p {
+	color: red; -- Vale só para o Copyright
+}
