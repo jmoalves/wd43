@@ -6,6 +6,10 @@
 	padding-top: 8px;
 	text-align: right;
 	width: 140px;
+
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 .menu-opcoes ul {
@@ -21,9 +25,19 @@ body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+header {
+	position: relative;
+}
+
 .menu-opcoes ul li {
 	display: inline;
 	margin-left: 20px;
+}
+
+.menu-opcoes {
+	position: absolute;
+	bottom: 0;
+	right: 0;
 }
 
 .container {
