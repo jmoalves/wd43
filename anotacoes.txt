@@ -1,4 +1,7 @@
 === WD43 - HTML, CSS, JS
+Podemos encarar a estrutura de uma página Web como a construção de um prédio.
+
+* Estrutura - Planta baixa - HTML
 
 
 ---
@@ -82,3 +85,11 @@ CSS - Seletor de id
 #rodape p {
 	color: red; -- Vale só para o Copyright
 }
+---
+Há um conceito importante que é o do fluxo HTML. Os elementos são mostrados na ordem
+que aparecem no HTML.
+
+Quando usamos o CSS "float", é como se o elemento saísse do fluxo. O elemento pode
+flutuar à direita ou à esquerda. Os elementos restantes "sobem" para ocupar o espaço
+disponível.
+---
