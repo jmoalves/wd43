@@ -20,3 +20,10 @@ figure {
 figcaption {
 	font-style: italic;
 }
+
+h1 {
+	width: 500px;
+	margin-left: 100px;
+	padding-left: 50px;
+	padding-top: 100px;
+}

@@ -1,0 +1,40 @@
+
+
+
+---
+Podemos usar CSS para reduzir (ou aumentar) a largura de um elemento (tag).
+Apenas tag do tipo block podem ter width definida.
+Elementos do tipo inline ignoram esta configuração.
+
+Os elementos tem um box-model.
+
+<element>
+	<margin - Separa um elemento do outro>
+		<border>
+			<padding - Separa o conteúdo da borda>
+				<conteúdo>
+					width só afeta esta parte!!!
+				</conteúdo>
+			</padding>
+		</border>
+	</margin>
+</element>
+
+
+Short hand property para padding e similares (ex: margin)
+padding-top: 10px;
+padding-right: 15px;
+padding-bottom: 20px;
+padding-left: 50px;
+
+Siga o padrão do relógio: (top right bottom left)
+padding: 50px; - Vale para todos;
+padding: 50px 100px; - Top/bottom -> 50px Right/left -> 100px
+padding: 2px 7px 20px; - Top -> 2px Right/left -> 7px Bottom -> 20px
+
+Podemos usar o valor "auto" para o CSS calcular. Exemplo:
+body {
+	width: 940px;
+	margin: 0 auto; Deixa top/bottom com zero e divide por igual a sobra com right/left.
+}
+
