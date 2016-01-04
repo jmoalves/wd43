@@ -93,3 +93,40 @@ Quando usamos o CSS "float", é como se o elemento saísse do fluxo. O elemento 
 flutuar à direita ou à esquerda. Os elementos restantes "sobem" para ocupar o espaço
 disponível.
 ---
+O HTML deve representar a estrutura da página, os significados *semânticos* nela.
+Evite contaminar o HTML com questões de estilo (e, vice-versa, contaminar o CSS com estrutura).
+
+Privilegie a semântica no HTML. O Estilo você deve resolver só no CSS.
+---
+CSS - Seletor de classe
+
+<div class="carnaval carnaval2017">
+</div>
+
+.carnaval {
+	color: red;
+}
+
+.carnaval2017 {
+	padding: 5px;
+}
+
+Como tem 2 classes no elemento, aplica as duas.
+Em caso de colisão... Veremos mais tarde.
+---
+O HTML5 provê tag novas, privilegiando a semântica.
+Exemplo:
+<header>
+<footer>
+<section>
+
+Com HTML4, usaríamos <div>.
+
+Outro exemplo é a tag <nav>, para agrupar links que realizam navegação no site.
+---
+Na prática, usaremos Seletor de Classe apenas (e os seletores hierárquicos com classes).
+Desta forma, o CSS e o HTML ficam mais desacoplados.
+
+As classes devem representar elementos *semânticos* de sua página.
+Procure dar significado para as suas classes.
+---
