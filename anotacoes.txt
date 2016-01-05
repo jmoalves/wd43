@@ -237,3 +237,18 @@ propriedades de width, etc.
 Melhor que "display: inline;"?
 Depende... IE7, por exemplo, não suporta inline-block;
 ---
+Image Replacement
+
+Algumas vezes queremos usar imagens no lugar de texto.
+Exemplo:
+<h1>Mirror Fashion</h1>
+
+Se queremos usar a imagem como título.
+Qual o problema?
+
+1) Indexação de buscadores (Google)
+	O Google não enxerga as imagens
+
+2) Acessibilidade
+	Os leitores de acessibidade não conhecem as imagens (o mesmo vale para seus alt's)
+---
