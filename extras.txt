@@ -1,0 +1,19 @@
+=== API's para aplicações Nativas usando HTML,CSS,JS
+
+Ionic
+Cordova
+PhoneGap
+Xamanion
+Titanium
+
+Usam uma tecnologia chamada WebView para prover uma experiência
+de aplicação nativa construindo-se aplicações "padrão" com HTML,
+CSS e JS.
+
+A montagem de infra-estrutura é complexa.
+Mas, depois de passada essa fase, você provê aplicações sem precisar
+ter versões específicas para cada celular.
+
+Ionic é uma boa opção. O PhoneGap é o mais usado (e o primeiro)
+
+===
