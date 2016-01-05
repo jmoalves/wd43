@@ -76,6 +76,11 @@ header {
 	padding: 5px 10px;
 }
 
+.menu-departamentos a {
+	color: #333333;
+	text-decoration: none;
+}
+
 .busca input {
 	vertical-align: middle;
 }
