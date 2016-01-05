@@ -202,3 +202,7 @@ footer .container {
 	float: left;
 	margin-left: 25px;
 }
+
+body {
+	margin: 0;
+}
