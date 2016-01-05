@@ -44,3 +44,60 @@ header {
 	margin: 0 auto;
 	width: 940px;
 }
+
+.busca,
+.menu-departamentos {
+	background-color: #dcdcdc;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	margin-right: 10px;
+	width: 230px;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+	margin: 10px;
+}
+
+/*
+ * Aqui há uma técnica interessante...
+ *
+ * Para criar uma linha cinza abaixo de cada item do menu,
+ * colocou-se um fundo cinza na ul (em .busca) e depois
+ * colocou-se um fundo branco na li com margin-bottom de 1px.
+ *
+ * Com isso, ficou uma linha de 1px "visível" atrás da li.
+ */
+.menu-departamentos li {
+	background-color: white;
+	margin-bottom: 1px;
+	padding: 5px 10px;
+}
+
+.busca input {
+	vertical-align: middle;
+}
+
+.busca input[type=search] {
+	width: 170px;
+}
+
+.busca,
+.menu-departamentos {
+	float: left;
+}
+
+.menu-departamentos {
+	clear: left;
+}
+
+.destaque {
+	margin-top: 10px;
+}
+
+.menu-departamentos {
+	margin-top: 10px;
+	padding-bottom: 10px;
+}

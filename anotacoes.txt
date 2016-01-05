@@ -161,3 +161,71 @@ Neste caso, é absolute em relação ao pai;
 position: fixed;
 Faz com que o elemento fique em posição fixa na tela, mesmo que o conteúdo role;
 ---
+CSS3 - Seletor de atributo
+
+input[type=search] {
+	padding: 5px;
+}
+
+Seleciona as tags "input" com atributo "type" igual a "search".
+OBS: A tag deve estar grudada no "[".
+
+O seletor de atributo vale para qualquer atributo e qualquer tag.
+Ou até sozinho.
+
+[src=img/lupa.png] {
+	padding: 5px;
+}
+
+Qualquer tag com o atributo "src" igual a "img/lupa.png"
+---
+CSS - Seletor ","
+
+Quando usamos a ",", é como se estivéssemos declarando o CSS duas vezes.
+
+p,.xuxa {
+	padding: 5px;
+}
+
+é equivalente a
+
+.xuxa {
+	padding: 5px;
+}
+
+p {
+	padding: 5px;
+}
+
+CUIDADO: Não usar espaço (vira seletor hierárquico)
+---
+CSS - Seletor de classe em tag
+
+p.xuxa {
+	padding: 5px;
+}
+
+Esse é diferente. Pega todas as tags "p" QUE POSSUEM a classe "xuxa".
+---
+Podemos ter o mesmo seletor declarado duas vezes.
+
+.menu {
+	padding: 5px;
+}
+
+.menu {
+	margin: 10px;
+}
+
+É equivalente a
+.menu {
+	padding: 5px;
+	margin: 10px;
+}
+
+Não é boa prática declarar separado. Mas pode ser interessante para
+efeito didático (a apostila usa muito assim).
+---
+Olhar comentário no "estilos.css" sobre como colocar uma linha no final
+de cada item do menu (usando ul e li)
+---
