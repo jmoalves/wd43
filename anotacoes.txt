@@ -252,3 +252,18 @@ Qual o problema?
 2) Acessibilidade
 	Os leitores de acessibidade não conhecem as imagens (o mesmo vale para seus alt's)
 ---
+Design responsivo
+
+<link rel="stylesheet" href="mobile.css" media="screen and max-width=320px">
+
+max-width=320px --> 0 a 320 (principalmente Desktop first)
+min-width=320px --> 320 e acima (principalmente Mobile first)
+---
+O problema é que o max-width (e min) trabalham com a resolução.
+Os smartphones tem um tela pequena, mas com uma resolução bem alta.
+
+Podemos resolver isso, indicando que queremos com "width" o tamanho adequado
+para a experiência do usuário. Essa propriedade é relacionada ao viewport.
+
+<meta name="viewport" content="width=device-width">
+---
