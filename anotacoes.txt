@@ -229,3 +229,11 @@ efeito didático (a apostila usa muito assim).
 Olhar comentário no "estilos.css" sobre como colocar uma linha no final
 de cada item do menu (usando ul e li)
 ---
+CSS - display: inline-block;
+
+Torna os elementos inline (permite um ao lado do outro), mas permite definir
+propriedades de width, etc.
+
+Melhor que "display: inline;"?
+Depende... IE7, por exemplo, não suporta inline-block;
+---
