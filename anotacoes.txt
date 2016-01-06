@@ -277,3 +277,12 @@ Medida - em;
 1em é igual ao tamanho da fonte do elemento;
 Exemplo, se a fonte é 16px, 1em é 16px;
 ---
+ html5test.com
+
+ Para avaliar o suporte ao HTML 5
+ ---
+ http://caniuse.com/
+
+ Para saber o suporte de CSS para uma tag
+ ---
+ 
