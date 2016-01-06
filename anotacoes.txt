@@ -272,3 +272,8 @@ Artigo complementar
 "Aplicando o Progressive Enhancement", no Blog da Caelum
 http://blog.caelum.com.br/aplicando-o-progressive-enhancement/
 ---
+Medida - em;
+
+1em é igual ao tamanho da fonte do elemento;
+Exemplo, se a fonte é 16px, 1em é 16px;
+---
