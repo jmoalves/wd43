@@ -17,18 +17,25 @@
 		</div> <!-- fim .jumbotron -->
 
 		<div class="container">
-			<h2>Sua compra</h2>
-			<img src="img/produtos/foto<?= $_POST['id'] ?>-<?= $_POST['cor'] ?>.png">
-			<dl>
-				<dt>Produto</dt>
-				<dd><?= $_POST['nome'] ?></dd>
-				<dt>Preço</dt>
-				<dd><?= $_POST['preco'] ?></dd>
-				<dt>Cor</dt>
-				<dd><?= $_POST['cor'] ?></dd>
-				<dt>Tamanho</dt>
-				<dd><?= $_POST['tamanho'] ?></dd>
-			</dl>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h2 class="panel-title">Sua compra</h2>
+				</div> <!-- fim .panel-heading -->
+
+				<div class="panel-body">
+					<img class="img-responsive img-thumbnail" src="img/produtos/foto<?= $_POST['id'] ?>-<?= $_POST['cor'] ?>.png">
+					<dl>
+						<dt>Produto</dt>
+						<dd><?= $_POST['nome'] ?></dd>
+						<dt>Preço</dt>
+						<dd><?= $_POST['preco'] ?></dd>
+						<dt>Cor</dt>
+						<dd><?= $_POST['cor'] ?></dd>
+						<dt>Tamanho</dt>
+						<dd><?= $_POST['tamanho'] ?></dd>
+					</dl>
+				</div> <!-- fim .panel-body -->
+			</div> <!-- fim .panel panel-default -->
 		</div> <!-- fim .container -->
 	</body>
 </html>
