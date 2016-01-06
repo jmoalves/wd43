@@ -267,3 +267,8 @@ para a experiência do usuário. Essa propriedade é relacionada ao viewport.
 
 <meta name="viewport" content="width=device-width">
 ---
+Artigo complementar
+
+"Aplicando o Progressive Enhancement", no Blog da Caelum
+http://blog.caelum.com.br/aplicando-o-progressive-enhancement/
+---
