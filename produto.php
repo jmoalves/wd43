@@ -20,7 +20,9 @@
 				<h1>Fuzzy Cardigan</h1>
 				<p>por apenas R$ 129,00</p>
 
-				<form>
+				<form action="checkout.php" method="post">
+					<input type="hidden" value="2" name="id">
+
 					<fieldset class="cores">
 						<legend>Escolha a cor:</legend>
 
