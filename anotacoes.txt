@@ -277,16 +277,53 @@ Medida - em;
 1em é igual ao tamanho da fonte do elemento;
 Exemplo, se a fonte é 16px, 1em é 16px;
 ---
- html5test.com
+html5test.com
 
- Para avaliar o suporte ao HTML 5
- ---
- http://caniuse.com/
+Para avaliar o suporte ao HTML 5
+---
+http://caniuse.com/
 
- Para saber o suporte de CSS para uma tag
- ---
- Bootstrap
+Para saber o suporte de CSS para uma tag
+---
+Bootstrap
 
- O grid system do bootstrap usa sempre 12 colunas.
- ---
- 
+O grid system do bootstrap usa sempre 12 colunas.
+---
+JavaScript não-obstrusivo
+
+Evitar usar os eventos "onXXX" (ex: onclick="") nas tags HTML.
+Isso acopla demais o JS com o HTML (coloca JS no HTML)
+
+Exemplo:
+
+** Obstrusivo (ou intrusivo)
+HTML:
+<h2 id="historia" onclick="trocaCor();">História</h2>
+
+JS:
+function trocaCor() { /* codigo da função */ }
+
+** Não-obstrusivo (ou não-intrusivo)
+HTML:
+<h2 id="historia">História</h2>
+
+JS:
+function trocaCor() { /* codigo da função */ }
+
+var h2 = document.querySelector('#historia');
+h2.onclick = trocaCor;
+
+OU
+
+document.querySelector('#historia').onclick = trocaCor;
+---
+Query Selector em Document
+
+Busca por ID
+document.querySelector("#id");
+Retorna sempre um (o primeiro que encontrar, usando o "fluxo HTML")
+
+Busca por outro tipo de seletor
+document.querySelectorAll("h1");
+Retorna TODOS os elementos que satisfazem a query (um array)
+---

@@ -36,6 +36,18 @@
 								<dt>Tamanho</dt>
 								<dd><?= $_POST['tamanho'] ?></dd>
 							</dl>
+
+							<div class="form-group">
+								<label for="qt">Quantidade</label>
+								<input id="qt" class="form-control" type="number" min="1" max="99" value="1">
+							</div> <!-- fim .form-group -->
+
+							<div class="form-group">
+								<label for="total">Total</label>
+								<output for="qt valor" id="total" class="form-control">
+									<?= $_POST['preco'] ?>
+								</output>
+							</div> <!-- fim .form-group -->
 						</div> <!-- fim .panel-body -->
 					</div> <!-- fim .panel panel-default -->
 				</div> <!-- fim .col-md-4 -->

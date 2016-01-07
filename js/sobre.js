@@ -1,3 +1,6 @@
-function mostra(msg) {
-	alert(msg);
+function trocaCor() {
+	alert("Vou mudar");
+	this.style.backgroundColor = "red";
 }
+
+document.querySelector('#historia').onclick = trocaCor;
