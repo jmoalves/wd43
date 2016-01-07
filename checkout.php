@@ -30,7 +30,7 @@
 								<dt>Produto</dt>
 								<dd><?= $_POST['nome'] ?></dd>
 								<dt>Preço</dt>
-								<dd><?= $_POST['preco'] ?></dd>
+								<dd id="preco"><?= $_POST['preco'] ?></dd>
 								<dt>Cor</dt>
 								<dd><?= $_POST['cor'] ?></dd>
 								<dt>Tamanho</dt>
@@ -116,5 +116,6 @@
 
 		<script src="js/converteMoeda.js"></script>
 		<script src="js/testaConversao.js"></script>
+		<script src="js/total.js"></script>
 	</body>
 </html>
