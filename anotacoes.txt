@@ -327,3 +327,6 @@ Busca por outro tipo de seletor
 document.querySelectorAll("h1");
 Retorna TODOS os elementos que satisfazem a query (um array)
 ---
+https://browserdiet.com
+
+Dicas de otimização.
