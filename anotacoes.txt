@@ -285,4 +285,8 @@ Exemplo, se a fonte é 16px, 1em é 16px;
 
  Para saber o suporte de CSS para uma tag
  ---
+ Bootstrap
+
+ O grid system do bootstrap usa sempre 12 colunas.
+ ---
  

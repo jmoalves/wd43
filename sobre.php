@@ -90,5 +90,8 @@
 				</ul>
 			</div> <!-- fim .container -->
 		</footer>
+
+		<script src="js/sobre.js">
+		</script>
 	</body>
 </html>
