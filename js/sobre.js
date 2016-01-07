@@ -1,1 +1,3 @@
-alert('Oi');
+function mostra(msg) {
+	alert(msg);
+}
