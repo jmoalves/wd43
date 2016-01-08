@@ -238,3 +238,15 @@ header {
 .painel li {
 	transition: 0.7s ease-out;
 }
+
+.painel button {
+	display: none;
+}
+
+.painel-compacto button {
+	display: block;
+}
+
+.painel-compacto li:nth-child(n + 7) {
+	display: none;
+}

@@ -362,3 +362,24 @@ Deploy na nuvem
 - Amazon Elastic Cloud - pago
 - openShift - mais opções gratuitas que a Amazon
 ---
+Atenção com a separação de responsabilidades (separation of concerns)
+
+NÃO USE
+$('p').css('background: red');
+
+É melhor criar uma classe no CSS e usar:
+$('p').addClass('vermelho');
+---
+Site de ofertas de emprego
+
+http://www.ondetrabalhar.com
+---
+Ao atribuirmos manipuladores de eventos, o "this" dentro do manipulador
+do evento é o próprio elemento do DOM.
+
+Se queremos usar o jQuery com ele, precisamos envolvê-lo com o jQuery.
+
+$('seletor').click(function () {
+	$(this).closest(...).removeClass('outro');	
+});
+---

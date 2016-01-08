@@ -25,3 +25,9 @@ imagem.onmouseover = paraBanner;
 imagem.onmouseleave = iniciaBanner;
 
 iniciaBanner();
+
+$('.painel').addClass('painel-compacto');
+
+$('.painel button').click(function () {
+	$(this).closest('.painel').removeClass('painel-compacto');
+});
