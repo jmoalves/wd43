@@ -330,3 +330,35 @@ Retorna TODOS os elementos que satisfazem a query (um array)
 https://browserdiet.com
 
 Dicas de otimização.
+---
+Opções mais leves que o jQuery
+
+jQuery suporta diversas funcionalidades e diversos browsers.
+Mas tem 30K (na versão 1), que pode ser problemático em projetos mobile.
+
+Há opções com menos suporte a dispositivos e funções, mas que são menores.
+Exemplos:
+Zepto (15K)
+jqmobi (5K)
+
+Ambos implementam o padrão Sizzle (que o jQuery implementa).
+jQuery (versão 2) também é menor. Mas não tem suporte para browser mais antigos (IE 7, 8, 9).
+---
+Para ser um profissional completo, é necessário acrescentar:
+
+Preprocessador
+- LESS - Mais simples
+- SASS - Mais requisitado, um pouco mais complexo
+
+Ferramenta de build
+- Grunt
+- Gulp - Mais usado e "da moda"
+
+SCM
+- git
+---
+Deploy na nuvem
+
+- Amazon Elastic Cloud - pago
+- openShift - mais opções gratuitas que a Amazon
+---
