@@ -250,3 +250,11 @@ header {
 .painel-compacto li:nth-child(n + 7) {
 	display: none;
 }
+
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.painel h2 {
+	font-family: 'Bad Script', sans-serif;
+}

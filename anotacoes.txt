@@ -395,3 +395,17 @@ Conjunto de hardware e software para criação de coisas simples (ou nem tanto)
 
 https://www.arduino.cc/
 ---
+Site para descobrir uma fonte:
+https://www.myfonts.com/WhatTheFont/
+
+Dá para fazer upload da imagem e ele identifica a fonte e fontes parecidas (gratuitas ou pagas)
+---
+CDN de fontes
+
+* Google - webfonts
+Permite fontes gratuitas.
+Tem ferramentas para indicar tempo de carga, etc.
+
+* TypeKit (Adobe)
+É pago, mas tem várias fontes com restrições de direito autoral.
+---
