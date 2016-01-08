@@ -446,3 +446,40 @@ div.container>ul>(li>a[href="#"]{nome})*3[tecle tab]
 </body>
 </html>
 ---
+Técnicas de otimização.
+
+Na apostila tem várias.
+
+Essa não tem lá...
+** Above the folding
+
+Podemos pegar o CSS do trecho de tela que aparece na tela imediatamente e colocá-lo
+na tag style no head.
+
+Com isso, a parte da tela que já aparece (sem precisar de scroll) tem estilo imediato.
+E o restante da tela pode ser renderizado mais lentamente, com as requisições sendo
+atendidas.
+
+Mas a percepção do usuário é de load imediato.
+
+Contudo, essa técnica é complexa e o suporte de ferramentas para automatizar não é bom.
+---
+Otimização de imagens
+
+Essa técnica pode reduzir a imagem fortemente SEM impacto (perceptível) na qualidade.
+
+http://www.jpegmini.com/ --> Pago, só JPEG
+https://tinypng.com/ --> Não é tão bom, mas é mais versátil
+https://kraken.io/
+
+Porém, essas coisas tem que fazer parte do build Gulp.
+---
+Há técnica para redução de tamanho de imagem, especialmente se considerarmos display de retina.
+
+Dobre a resolução e degrade a qualidade.
+---
+Para segurança entre serviços.
+
+JWT
+https://jwt.io/
+---
