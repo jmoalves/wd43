@@ -360,7 +360,7 @@ SCM
 Deploy na nuvem
 
 - Amazon Elastic Cloud - pago
-- openShift - mais opções gratuitas que a Amazon
+- OpenShift - mais opções gratuitas que a Amazon
 ---
 Atenção com a separação de responsabilidades (separation of concerns)
 
@@ -382,4 +382,16 @@ Se queremos usar o jQuery com ele, precisamos envolvê-lo com o jQuery.
 $('seletor').click(function () {
 	$(this).closest(...).removeClass('outro');	
 });
+---
+Para receber informações em PUSH do servidor, não emule usando requisições.
+
+É melhor usar WebSocket.
+Uma biblioteca que ajuda é a Socket.io.
+---
+Arduino
+
+Biblioteca (e componentes físicos)
+Conjunto de hardware e software para criação de coisas simples (ou nem tanto)
+
+https://www.arduino.cc/
 ---
