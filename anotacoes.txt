@@ -409,3 +409,40 @@ Tem ferramentas para indicar tempo de carga, etc.
 * TypeKit (Adobe)
 É pago, mas tem várias fontes com restrições de direito autoral.
 ---
+Para "turbinar" o Sublime, tem que instalar o Package Control.
+https://packagecontrol.io
+---
+Sublime - instalando pacotes
+
+ctrl + shift + p -> Install package.
+---
+Sublime - Plugin - Emmet
+
+Para geração de HTML.
+
+Exemplo:
+div.container>ul>(li>a[href="#"]{nome})*3[tecle tab]
+
+** Gera
+	<div class="container">
+		<ul>
+			<li><a href="#">nome</a></li>
+			<li><a href="#">nome</a></li>
+			<li><a href="#">nome</a></li>
+		</ul>
+	</div>
+
+![tab]
+
+** Gera
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+</html>
+---
