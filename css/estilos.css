@@ -258,3 +258,26 @@ body {
 .painel h2 {
 	font-family: 'Bad Script', sans-serif;
 }
+
+/*
+ * Técnica ClearFix.
+ *
+ * Coloca uma borda no painel que engloba os painéis flutuantes.
+ * Ao colocarmos somente a borda, não funciona.
+ * 
+ * Quando colocamos um conteúdo a mais no painel, esse conteúdo é
+ * "empurrado" para o final, pois ele está (no fluxo HTML) após
+ * (after) o conteúdo original (os painéis flutuantes).
+ *
+ * Como esse conteúdo está com "clear: both;", ele é empurrado para
+ * baixo, aumentando o tamanho do painel exterior. 
+ */
+.paineis {
+	border: solid 2px;
+}
+
+.paineis:after {
+	content: '';
+	display: block;
+	clear: both;
+}
